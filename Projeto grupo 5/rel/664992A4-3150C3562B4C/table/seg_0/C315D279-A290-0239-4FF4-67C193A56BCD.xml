@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C315D279-A290-0239-4FF4-67C193A56BCD" name="Produtos">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>62597D02-68BB-28C2-AE4C-AFF54CC071F7</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<abbreviation>pdt</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pdt_id" id="3BFE4591-E3E3-A94A-2B94-E5CBB05C5228">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>319A3F88-1266-FAC9-B5CE-0C23843844AF</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pdt_nome" id="53D51621-437F-F323-91BC-9F2CCBBFF507">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>449AE5DE-0793-332A-D31E-726341AC20F4</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pdt_precoAquisicao" id="B89E7FEA-1B7A-316B-FBF7-61517E14608F">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>1A82EB37-95DA-5FE1-1742-B8F3A45AD67F</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pdt_precoVenda" id="033C6C84-3794-C430-2ECA-7989B5132DC0">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>B9E87612-BA3C-D4A7-3DFE-D1C9D0F6A5AD</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pdt_qtdEstoque" id="E82DC4A3-3EEB-BCD5-FBBD-2DC89A335510">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>97181C0F-D0F6-E3CA-4F3C-7C6C831CEDFA</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pdt_frn_id" id="681190E5-7DD4-A33B-6044-A3AD639BF030">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>23CD95FA-F62C-5BC7-B687-D139239000B7</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1E57A24-0E39-6103-0F2B-B73626E40327" referredColumn="050FA340-F8AC-B39E-A392-9EF9913B320B"/>
+</associations>
+</Column>
+<Column name="pdt_ctg_id" id="68835B61-92B5-1440-1A14-8B9CC20117B9">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>472717CD-68EF-A9D5-08AF-B1095FA7841F</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FAC0526-27ED-5128-5085-E6B68909A4F1" referredColumn="4140C945-9184-7DA1-A0AB-1460FF2526B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3BE0DFE-7185-BB59-85B7-3AC04B0D932A" name="PK_pdt">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>8A493983-DF81-C8B4-BBE5-0239C0789EEB</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BFE4591-E3E3-A94A-2B94-E5CBB05C5228"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2F7A5D2-3574-1D9B-D79D-046C9A6A8A1F" name="FK_frn">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>260E6EB6-83EB-4F8B-5E98-5FCF1BE1E808</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="681190E5-7DD4-A33B-6044-A3AD639BF030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FA2EBD8-82B6-A49F-DBF3-A401460FB5C7" name="FK_ctg">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>519C4741-172E-2DC7-0A4B-D485BCE7D793</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68835B61-92B5-1440-1A14-8B9CC20117B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79D9DAF0-834C-09AE-0BC5-B17DEB73E696" containerWithKeyObject="18C769CA-3B78-7B12-8C67-10C2E04057A7" localFKIndex="98090B78-FD1B-FE33-E10B-D88A5C14FB37" name="FK_pdt">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>1E4EC0F0-2E0E-E1B6-0D2F-8241A6F8D84A</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<referredTableLongName>Produtos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C315D279-A290-0239-4FF4-67C193A56BCD</referredTableID>
+<keyObject>A3BE0DFE-7185-BB59-85B7-3AC04B0D932A</keyObject>
+<referredKeyID>A3BE0DFE-7185-BB59-85B7-3AC04B0D932A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pdt_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

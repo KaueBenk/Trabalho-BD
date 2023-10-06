@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1E57A24-0E39-6103-0F2B-B73626E40327" containerWithKeyObject="C315D279-A290-0239-4FF4-67C193A56BCD" localFKIndex="D2F7A5D2-3574-1D9B-D79D-046C9A6A8A1F" name="FK_frn">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>260E6EB6-83EB-4F8B-5E98-5FCF1BE1E808</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<referredTableLongName>Fornecedores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8BB0E1D4-3D98-6EA8-CF28-58E29AFBACD0</referredTableID>
+<keyObject>5FE96FC3-1BED-2127-7ACD-815F36E74436</keyObject>
+<referredKeyID>5FE96FC3-1BED-2127-7ACD-815F36E74436</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>frn_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

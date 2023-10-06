@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="633DDBAF-C049-09E5-BC65-0D4D3EAAF7D8">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:37:49 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<sourcePk>B5329F76-3664-F469-5741-7746F9EC0720</sourcePk>
+<targetPk>BEE08D34-01C2-7679-265F-0177CB9901B4</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4B959D69-2339-429C-7500-2BB583794CE4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DF65FBE0-E55F-3161-4490-6C954F1B38CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

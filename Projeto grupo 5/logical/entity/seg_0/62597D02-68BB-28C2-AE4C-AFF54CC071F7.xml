@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62597D02-68BB-28C2-AE4C-AFF54CC071F7" name="Produtos">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-09-22 15:56:32 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pdt</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pdt_id" id="319A3F88-1266-FAC9-B5CE-0C23843844AF">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-09-22 15:57:05 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pdt_nome" id="449AE5DE-0793-332A-D31E-726341AC20F4">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-09-22 15:57:35 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pdt_precoAquisicao" id="1A82EB37-95DA-5FE1-1742-B8F3A45AD67F">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-09-22 15:58:11 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pdt_precoVenda" id="B9E87612-BA3C-D4A7-3DFE-D1C9D0F6A5AD">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-09-22 15:59:23 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pdt_qtdEstoque" id="97181C0F-D0F6-E3CA-4F3C-7C6C831CEDFA">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-09-22 15:59:58 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frn_id" id="23CD95FA-F62C-5BC7-B687-D139239000B7">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:37:08 UTC</createdTime>
+<generatorID>260E6EB6-83EB-4F8B-5E98-5FCF1BE1E808</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<referedAttribute>6510216E-9C4E-679D-D36F-97A6A20D4678</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ctg_id" id="472717CD-68EF-A9D5-08AF-B1095FA7841F">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:42:49 UTC</createdTime>
+<generatorID>519C4741-172E-2DC7-0A4B-D485BCE7D793</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<referedAttribute>9824C3B5-CD41-0D67-1C31-F0BB087D76B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A493983-DF81-C8B4-BBE5-0239C0789EEB" name="Produtos PK">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-09-22 15:57:28 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>319A3F88-1266-FAC9-B5CE-0C23843844AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

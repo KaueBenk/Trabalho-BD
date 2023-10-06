@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA4B6707-A5C6-8164-EB0F-3A8EA494165C" name="Vendas">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>4B959D69-2339-429C-7500-2BB583794CE4</generatorID>
+<notes><![CDATA[Tabela utilizada para gerenciar e arquivar vendas realizadas]]></notes>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<abbreviation>vnd</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vnd_id" id="D0595654-1D53-B248-7B26-4DD3923B3E24">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>71AFEBC8-819B-C791-30B3-ADAC786175AC</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_dataVenda" id="EBD4B6D3-BACF-B532-0DFB-3E58D48E0BB5">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>437672F0-ABE1-23E3-20B9-5FCE6C896E3D</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_cli_id" id="F4D03C5F-044F-F04E-C5FF-BAD2DA3A8811">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>132BFCEC-161D-B2BF-FC02-348BDA69F196</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADB99C04-3AAD-3870-E8E0-68E5C0F2AA3D" referredColumn="B93BE77C-DA9F-A186-6423-D06A56ED1877"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50397ADD-8C0F-FA6A-8BA1-18C335F9545D" name="PK_vnd">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>B5329F76-3664-F469-5741-7746F9EC0720</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0595654-1D53-B248-7B26-4DD3923B3E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E270184-647B-29A3-4196-12F4C7DEC7F0" name="FK_vnd_cli">
+<createdBy>fireb</createdBy>
+<createdTime>2023-10-04 16:54:22 UTC</createdTime>
+<generatorID>633DDBAF-C049-09E5-BC65-0D4D3EAAF7D8</generatorID>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D03C5F-044F-F04E-C5FF-BAD2DA3A8811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

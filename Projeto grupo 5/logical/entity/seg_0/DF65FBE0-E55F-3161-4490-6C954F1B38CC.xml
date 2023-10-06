@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF65FBE0-E55F-3161-4490-6C954F1B38CC" name="Clientes">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-10-02 11:17:46 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cli_id" id="AEF178A7-CA5B-5EFA-5AB5-552BB950242F">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-10-02 11:18:14 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_nome" id="1509335A-20EA-A75A-9296-6AFBBED827EB">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-10-02 11:18:45 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_endereco" id="3E5DF049-3E6B-E135-7959-A12BEBCC7A0B">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-10-02 11:19:16 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_telefone" id="4F77F150-45E0-C7DB-6655-5687BDB43678">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-10-02 11:19:40 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_email" id="23AACB09-03C1-DB50-849D-FD40EDD6BCA4">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-10-02 11:20:54 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEE08D34-01C2-7679-265F-0177CB9901B4" name="Clientes PK">
+<createdBy>Nathan</createdBy>
+<createdTime>2023-10-02 11:18:25 UTC</createdTime>
+<ownerDesignName>Projeto grupo 5</ownerDesignName>
+<engineerTo>
+<item key="664992A4-5E75-179F-3BC4-3150C3562B4C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEF178A7-CA5B-5EFA-5AB5-552BB950242F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
